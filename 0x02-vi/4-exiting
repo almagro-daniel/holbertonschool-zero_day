@@ -1,0 +1,4 @@
+*:x<Return>	quit vi, writing out modified file to file named in original invocation
+:wq<Return>	quit vi, writing out modified file to file named in original invocation
+:q<Return>	quit (or exit) vi
+*:q!<Return>	quit vi even though latest changes have not been saved for this vi call
